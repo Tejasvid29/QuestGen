@@ -1,0 +1,15 @@
+# Corpus files - regenerate with: pip install datasets && python seed_corpus.py
+# Not tracked: derived from RACE, which is restricted to non-commercial research use,
+# and it's fully reproducible from the script + a fixed random seed anyway.
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.Python
+venv/
+.venv/
+env/
+
+# macOS
+.DS_Store
